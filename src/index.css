@@ -1,0 +1,27 @@
+@import "tailwindcss";
+
+
+@layer base {
+    header, main, footer {
+        @apply max-w-[1300px] m-auto
+    }
+    ul i {
+        @apply mx-1
+    }
+
+    li {
+        list-style: none;
+    }
+}
+
+body, html {
+    height: 100vh;
+    width: 100%;
+    overflow: auto;
+    margin: auto;
+}
+
+hr {
+    max-width: 1280px;
+    margin: auto;
+}
